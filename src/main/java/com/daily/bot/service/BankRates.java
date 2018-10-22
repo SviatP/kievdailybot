@@ -4,6 +4,6 @@ import com.daily.bot.domain.BankRate;
 
 import java.util.Set;
 
-public interface BankRates {
+public interface  BankRates {
     Set<BankRate> getRates(String bank);
 }
